@@ -1,9 +1,10 @@
 (()=>{
-  const username = document.getElementsByClassName('username u-dir u-textTruncate')
+  const username = document.getElementsByClassName('bA4')
+  email=​"juanmartin.dominguez@gmail.com"
   const color = '#FFDF53';
   for (const element of username) {
-    if(element.textContent === "@Meetupjs_ar"){
-      element.parentElement.parentElement.parentElement.parentElement.parentElement.style.background = color
+    if(element.children[0].attributes.email.textContent === "dolores.martinsaravia@acamica.com"){
+      element.parentElement.parentElement.parentElemen.style.background = color
     }
   }
 })()

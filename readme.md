@@ -1,3 +1,3 @@
 # Color Twitter
 
-## Bookmarket Color Twitter
+## Bookmarket Color Gmail
