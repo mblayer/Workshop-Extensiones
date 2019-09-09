@@ -23,6 +23,6 @@ Para nuestro segundo Bookmarklet vamos a realizar una tarea más compleja.
 Cuando accionemos nuestro Bookmarklet vamos cambiar todas los textos dentro de una etiqueta `<p></p>` por nuestro nombre.
 En mi caso, todas los textos que se encuentren en una etiqueta  `<p></p>`  tendrán el contenido de **Matias Blayer**
 
-### 🆘  [Solución](../bookmarklet/ejemplo2.html)
+### 🆘  [Solución](../bookmarklet/ejemplo2.js)
 
 ### 🏠  [Inicio](../readme.md)
