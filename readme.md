@@ -1,4 +1,4 @@
-# Extensions, Extensions Everywhere*
+# Extensions, Extensions Everywhere
 
 Las extensiones son una de las características más útiles de los navegadores actuales y no paramos de descargarlas sin saber de dónde salen. Vos estas seguro que queres seguir haciendo eso? sumate al workshop y juntos vamos a aprender a armar nuestras extensiones y tomar el control de nuestro navegador.
 
@@ -16,7 +16,7 @@ Las extensiones son una de las características más útiles de los navegadores 
 
 ## Temas
 
-* [Bookmarklet](./docs/bookmarklet.md)
+* [Bookmarklet](./docs/01_bookmarklet.md)
 * Extensiones
   * [Manifest](./docs/manifest.md)
   * ContentScript
