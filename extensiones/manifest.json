@@ -1,0 +1,14 @@
+{
+  "name": "Test",
+  "description" : "Extension test",
+  "manifest_version": 2,
+  "version": "0.0.1",
+   "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "bookmarks",
+    "webNavigation"
+  ]
+}
