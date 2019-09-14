@@ -99,6 +99,7 @@ Que tendriamos que hacer para que funcione?
 Por ultimo vamos a poder reaccionar frente a eventos.
 
 ```
+
 chrome.runtime.onMessage.addListener(function(message callback) {
   if (message.data === 'hola') {
     console.log('El mensaje es hola');
@@ -108,5 +109,48 @@ chrome.runtime.onMessage.addListener(function(message callback) {
 });
 ```
 
-### ⏪ [Anterior: Manifest](../04_backgroundScript.md)
-### ⏩ [Siguiente: Content Script](05_contentScript.md)
+
+## Acciones del Navegador 
+
+Las acciones del navegador y el icon action no pueden acceder al DOM en sí, sin embargo, pueden comunicarse con el contentsctipr a través de la API de `messaging` de Chrome. 
+Una acción del navegador debe tener un icono (para el botón), así como un archivo JavaScript para el código.
+
+Cuando el usuario hace clic en el botón, desencadena un evento "onClick". Este código iría en background.js.
+
+```
+chrome.browserAction.onClicked.addListener(buttonClicked);
+
+function buttonClicked(tab) {
+  console.log('hicimos click en el action icon')
+}
+```
+
+Para mandar un mensaje tenemos que modificar nuestra funcion:
+
+```
+function buttonClicked(tab) {
+  var msg = {
+    mensaje: "el usuario hizo click!"
+  }
+  chrome.tabs.sendMessage(tab.id, msg);
+}
+```
+
+Para poder detectar esto desde el `contentScript`:
+
+```
+chrome.runtime.onMessage.addListener(receiver);
+
+function receiver(request, sender, sendResponse) {
+  if (request.message === "el usuario hizo click!") {
+    console.log('request.message')
+  }
+}
+```
+
+
+Este codigo que estamos ejecutando tiene su propia consola donde vamos a poder ver nuestro codigo en tiempo real.
+
+
+### ⏪ [Anterior: Background Script](../contentScript.md)
+### ⏩ [Siguiente: New Tabs](06_popups.md)
