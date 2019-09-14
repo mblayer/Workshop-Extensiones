@@ -44,4 +44,4 @@ cambiarTexto("Matias Blayer")
 ```
 
 ### ⏪ [Anterior: Manifest](../03_manifest.md)
-### ⏩ [Siguiente: Content Script](04_backgroundScript.md)
+### ⏩ [Siguiente: Content Script](05_backgroundScript.md)

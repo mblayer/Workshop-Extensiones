@@ -152,5 +152,5 @@ function receiver(request, sender, sendResponse) {
 Este codigo que estamos ejecutando tiene su propia consola donde vamos a poder ver nuestro codigo en tiempo real.
 
 
-### ⏪ [Anterior: Background Script](../contentScript.md)
+### ⏪ [Anterior: Background Script](../04_contentScript.md)
 ### ⏩ [Siguiente: New Tabs](06_popups.md)
