@@ -43,5 +43,5 @@ const cambiarTexto =  (nombre) => {
 cambiarTexto("Matias Blayer")
 ```
 
-### ⏪ [Anterior: Manifest](../03_manifest.md)
-### ⏩ [Siguiente: Content Script](05_backgroundScript.md)
+### ⏪ [Anterior: Manifest](./03_manifest.md)
+### ⏩ [Siguiente: Background Script](./05_backgroundScript.md)

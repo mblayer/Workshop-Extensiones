@@ -10,5 +10,5 @@ Para poder modificar nuestra web de inicio es tan simple como agregar un nuevo v
 
 De esta forma podemos agrear un archivo `.html` el cual puede interactuar con nuestro navegador.
 
-### ⏪ [Anterior: Background Script](../06_popups.md)
+### ⏪ [Anterior: Pop Up](./06_popups.md)
 ### 🏠  [Inicio](../readme.md)

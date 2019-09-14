@@ -15,5 +15,5 @@ Esta ventana nos permite mostrar informacion o interactuar con la extension, tam
 chrome.tabs.sendMessage(tabs[0].id, `{mensaje}`)
 ```
 
-### ⏪ [Anterior: Background Script](../05_backgroundScript.md)
-### ⏩ [Siguiente: New Tabs](07_newTabs.md)
+### ⏪ [Anterior: Background Script](./05_backgroundScript.md)
+### ⏩ [Siguiente: New Tabs](./07_newTabs.md)

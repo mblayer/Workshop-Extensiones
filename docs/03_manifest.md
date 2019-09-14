@@ -19,4 +19,4 @@ El archivo Manifest se va a encargar de darle la configuración al navegador sob
 Esta extension esta lista para ser instalada, pero la misma no hace nada, ahora tenemos que ir sumando las diferentes partes
 
 
-### ⏩ [Siguiente: Background Script](../04_contentScript.md)
+### ⏩ [Siguiente: Content Script](./04_contentScript.md)
