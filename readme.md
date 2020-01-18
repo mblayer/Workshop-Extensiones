@@ -19,6 +19,6 @@ Las extensiones son una de las características más útiles de los navegadores 
 * [Bookmarklet](./docs/01_bookmarklet.md)
 * Extensiones
   * [Manifest](./docs/03_manifest.md)
-  * [ContentScript](.docs/04_contentScript.md)
-  * [BackgroundScript](.docs/05_backgroundScript.md)
-  * [Pop-up](.docs/06_popups.md)
+  * [ContentScript](./docs/04_contentScript.md)
+  * [BackgroundScript](./docs/05_backgroundScript.md)
+  * [Pop-up](./docs/06_popups.md)
